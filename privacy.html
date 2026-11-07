@@ -30,7 +30,10 @@
   <p>フレンド機能を利用する場合に限り、アカウントの作成・ログイン・フレンド申請・表示のため、メールアドレス、表示名、アカウント識別子、フレンド関係を当該機能のサーバーへ送信します。また、フレンドへ共有するために、今週・今月のトレーニング総量、最終トレーニング日、種目別の自己ベストを送信します。ログイン用の認証情報は端末のキーチェーンに保存されます。フレンド機能を利用しない場合、この通信は行われません。</p>
 
   <h2>カレンダーの共有</h2>
-  <p>フレンド画面で「カレンダーをフレンドに見せる」をオンにした場合に限り、直近6か月のトレーニング記録（日付、種目、重量、回数、部位、自己ベストの印）をサーバーへ送信し、フレンドに表示します。初期設定はオフです。オフにすると、サーバー上のカレンダーのデータは削除されます。</p>
+  <p>フレンド画面で「カレンダーをフレンドに見せる」をオンにした場合に限り、直近6か月のトレーニング記録（日付、種目、重量、回数、部位、自己ベストの印、トレーニングの時間と開始・終了の時刻）をサーバーへ送信し、フレンドに表示します。初期設定はオフです。オフにすると、サーバー上のカレンダーのデータは削除されます。</p>
+
+  <h2>プロフィール写真</h2>
+  <p>フレンド画面でプロフィール写真を設定した場合に限り、選んだ写真を縮小したものをサーバーへ送信し、フレンドと、招待を送った相手に表示します。選んだ写真以外のフォトライブラリの内容にはアクセスしません。写真を削除するか、アカウントを削除すると、サーバー上の写真は削除されます。</p>
 
   <h2>トレーニングの開始と完了の通知</h2>
   <p>フレンド画面で「トレーニングの開始と完了を通知し合う」をオンにした場合に限り、通知の配信に必要な端末トークンをサーバーへ送信し、トレーニングの開始・完了時に、同じ設定をオンにしているフレンドへ表示名を含む通知を送ります。通知の配信には Apple Push Notification service を利用します。初期設定はオフです。端末トークンはログアウトまたはアカウントの削除で削除されます。</p>
@@ -56,7 +59,9 @@
   <h2>Friend features</h2>
   <p>Only if you use the friend features, your email address, display name, account identifier and friend relationships are sent to the server for account creation, login, friend requests and display. To share with friends, your weekly and monthly training volume, last workout date and personal bests by exercise are also sent. You can delete your account and this data in the app.</p>
   <h2>Calendar sharing</h2>
-  <p>Only if you turn on calendar sharing on the Friends screen, your workout records from the last six months (dates, exercises, weights, reps, body parts and personal best marks) are sent to the server and shown to your friends. This is off by default. Turning it off deletes the calendar data from the server.</p>
+  <p>Only if you turn on calendar sharing on the Friends screen, your workout records from the last six months (dates, exercises, weights, reps, body parts, personal best marks, and workout duration with start and end times) are sent to the server and shown to your friends. This is off by default. Turning it off deletes the calendar data from the server.</p>
+  <h2>Profile photo</h2>
+  <p>Only if you set a profile photo on the Friends screen, a reduced copy of the photo you choose is sent to the server and shown to your friends and to people you invite. The app does not access anything else in your photo library. Removing the photo or deleting your account deletes it from the server.</p>
   <h2>Workout start and finish notifications</h2>
   <p>Only if you turn on this setting on the Friends screen, a device token needed for delivery is sent to the server, and friends who have also turned it on receive a notification including your display name when you start or finish a workout. Apple Push Notification service is used for delivery. This is off by default. The device token is deleted when you log out or delete your account.</p>
   <h2>Advertising</h2>
